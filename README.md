@@ -1,6 +1,10 @@
 ### Escuela Colombiana de Ingeniería
 ### Arquitecturas de Software - ARSW
 
+## Autores:
+- Samuel Castelblanco 
+- Ángela Gómez 
+
 ## Escalamiento en Azure con Maquinas Virtuales, Sacale Sets y Service Plans
 
 ### Dependencias
@@ -193,6 +197,17 @@ newman run ARSW_LOAD-BALANCING_AZURE.postman_collection.json -e [ARSW_LOAD-BALAN
 * Informe de newman 1 (Punto 2)
 * Presente el Diagrama de Despliegue de la solución.
 
+---
 
+## RESPUESTAS + EVIDENCIAS LAB 9 
 
+### PARTE I - Escalabilidad vertical 
+
+Video: 
+
+### PARTE II - Escalabilidad horizontal 
+
+Video: 
+
+---
 
