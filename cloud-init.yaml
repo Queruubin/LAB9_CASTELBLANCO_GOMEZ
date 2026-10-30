@@ -1,0 +1,24 @@
+#cloud-config
+package_update: true
+packages:
+  - git
+  - libatomic1
+write_files:
+  - path: /etc/systemd/system/fibonacci.service
+    content: |
+      [Unit]
+      Description=Fibonacci App
+      After=network.target
+      [Service]
+      WorkingDirectory=/opt/app/FibonacciApp
+      ExecStart=/usr/bin/node FibonacciApp.js
+      Restart=always
+      [Install]
+      WantedBy=multi-user.target
+runcmd:
+  - curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
+  - apt-get install -y nodejs
+  - git clone https://github.com/Queruubin/ARSW_LOAD-BALANCING_AZURE_CASTEL_GOMEZ.git /opt/app
+  - cd /opt/app/FibonacciApp && npm install
+  - systemctl daemon-reload
+  - systemctl enable --now fibonacci
