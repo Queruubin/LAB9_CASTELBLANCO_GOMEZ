@@ -5,6 +5,8 @@
 - Samuel Castelblanco 
 - Ángela Gómez 
 
+## Respuestas disponibles después de esta sección de instrucciones
+
 ## Escalamiento en Azure con Maquinas Virtuales, Sacale Sets y Service Plans
 
 ### Dependencias
