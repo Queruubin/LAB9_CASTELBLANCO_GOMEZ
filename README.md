@@ -448,5 +448,5 @@ flowchart TB
 
 ## Videos
 
-* **Parte 1, escalabilidad vertical:** [Ver video](videos/parte1-escalabilidad-vertical.mp4)
-* **Parte 2, escalabilidad horizontal:** [Ver video](videos/parte2-escalabilidad-horizontal.mp4)
+* **Parte 1, escalabilidad vertical:** [Ver video en Google Drive](https://drive.google.com/file/d/1PLsogo2YVMMVv3tBJvnDHc0dtnKQjPVm/view?usp=sharing)
+* **Parte 2, escalabilidad horizontal:** [Ver video en Google Drive](https://drive.google.com/file/d/1I8pzaGP24CdnK-FOPQebWpqSUjqJJWLI/view?usp=sharing)
